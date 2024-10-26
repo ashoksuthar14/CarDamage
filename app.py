@@ -1,9 +1,11 @@
+
 import streamlit as st
 from car_pipeline import car_damage_pipeline  # Import the pipeline function
 from PIL import Image
 import os
 
-
+# Ensure the 'static' folder exists for saving the uploaded image and annotated image
+os.makedirs("static", exist_ok=True)
 
 # Set up Streamlit app title and description
 st.title("Car Damage Detection and Repair Cost Estimation")
