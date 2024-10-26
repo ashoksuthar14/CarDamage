@@ -1,7 +1,5 @@
-streamlit==1.39.0
-ultralytics==8.3.23
-opencv-python-headless  # Do not specify a version to avoid compatibility issues
-Pillow  # This replaces `pil`
+streamlit
+ultralytics
+opencv-python-headless
+Pillow
 torch
-protobuf
-
