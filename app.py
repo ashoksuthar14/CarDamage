@@ -51,3 +51,8 @@ if uploaded_file is not None:
         os.remove(image_path)
     if os.path.exists(annotated_image_path):
         os.remove(annotated_image_path)
+
+# Add a "Contact an Inspector" button
+if st.button("Contact an Inspector"):
+    st.write("[Go to Inspector Page](https://rainbow-swan-b0770f.netlify.app/room/111)")
+
